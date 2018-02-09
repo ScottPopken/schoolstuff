@@ -1,6 +1,10 @@
-for turtle import Turtle
+import turtle
 
-def regular_pol(t: Turtle, length: int, num_sides=4):
+def regular_pol(t: Turtle, n: int, length: int, shape)->None:
+    for count in range(n):
+        shape(t, length)
+        t.left(360 / n)
+
 def square(t: Turtle, length: int):
     """
     draw a square with  a giv len
@@ -42,7 +46,10 @@ def oxcgon(t: Turtle, length: int):
         t.forward(length)
         t.left(45)
 def main ():
+    Turtle = turtle
     king = Turtle()
+    screen = Screen()
+    regular_pol(king, n = 10, length=50, shape=square)
     square(king, 300)
 
 if __name__=='__main__':
