@@ -16,7 +16,7 @@ def main():
     #king.forward(150)
    # king.left(90)
     #king.forward(75)
-    turtle.exitonclick()
+    wn.exitonclick()
 
 if __name__=='__main__':
     main()
