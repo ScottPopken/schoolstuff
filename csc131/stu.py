@@ -74,7 +74,7 @@ def main():
     print("{} has an average score of {}.".format(student.get_name(), student.get_average()))
     print("{}'s highest score is {}.".format(student.get_name(), student.get_high_score()))
     print("{}'s first score was {}.".format(student.get_name(), student.get_score(1)))
-    help(Student)
+    #help(Student)
 
 
 if __name__ == "__main__":
