@@ -3,7 +3,7 @@ File: matrixcanvas.py
 Presents a view of a matrix
 """
 
-from breezypythongui import EasyCanvas
+from csc131.breezypythongui import EasyCanvas
 
 class MatrixCanvas(EasyCanvas):
     """Represents a canvas for a character in a matrix view."""

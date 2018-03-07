@@ -1,4 +1,4 @@
-from breezypythongui import EasyFrame
+from csc131.breezypythongui import EasyFrame
 
 class LabelDemo(EasyFrame):
     def __init__(self):

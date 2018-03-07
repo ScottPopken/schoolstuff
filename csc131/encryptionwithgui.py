@@ -2,7 +2,7 @@
 File: encryptionwithgui.py
 """
 
-from breezypythongui import EasyFrame
+from csc131.breezypythongui import EasyFrame
 from grid import Grid
 from matrixcanvas import MatrixCanvas
 import random
